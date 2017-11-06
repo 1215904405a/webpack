@@ -1,0 +1,11 @@
+{
+  presets: [['es2015', { 'modules': false }], 'stage-2', 'react'],//预设
+  plugins: [//插件先转换
+    ["transform-runtime",{  //transform-runtime参数说明 https://segmentfault.com/a/1190000009065987
+      "helpers": true,
+      "polyfill": true,
+      "regenerator": true,
+      "moduleName": "babel-runtime"
+    }]
+  ],
+}
