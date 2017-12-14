@@ -1,0 +1,1 @@
+//NamedChunksPlugin插件来根据文件名来稳定你的chunkid  webpack.NamedChunksPlugin  生产中用
