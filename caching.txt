@@ -8,3 +8,4 @@ config.plugins.push(new webpack.NamedChunksPlugin((chunk) => {
   }
   return chunk.modules.map(m => path.relative(m.context, m.request)).join("_");
 }));
+chunkhash是根据文件内容生成的hash 单独生产hash  没变的不回有hash变化
