@@ -12,4 +12,5 @@ config.plugins.push(new webpack.NamedChunksPlugin((chunk) => {
 [hash]会根据入口文件改变  所有文件hash都会变
 
 2、webpack.HashedModuleIdsPlugin
+该插件会根据模块的相对路径生成一个四位数的hash作为模块id,
 入口文件顺序改变，保证chunkhash不会变
