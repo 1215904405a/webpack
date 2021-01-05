@@ -1,0 +1,29 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "webpack test",
+  "main": "app/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1215904405a/webpack.git"
+  },
+  "author": "1215904405@qq.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1215904405a/webpack/issues"
+  },
+  "homepage": "https://github.com/1215904405a/webpack#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/parser": "^7.12.11",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "@babel/preset-typescript": "^7.12.7",
+    "@babel/traverse": "^7.12.12"
+  }
+}

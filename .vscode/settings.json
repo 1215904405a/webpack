@@ -1,0 +1,101 @@
+{
+    "window.zoomLevel": 1,
+    "workbench.view.alwaysShowHeaderActions": true,
+    "workbench.editor.labelFormat": "medium",
+    "workbench.settings.openDefaultSettings": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "stylelint.autoFixOnSave": true,
+    "stylelint.configOverrides": {},
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        {
+            "language": "vue",
+            "autoFix": true
+        },
+    ],
+    "editor.tabSize": 2,
+    //emmet能识别缩写语法的场景
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "vue-html": "html",
+        "wxml": "wxml"
+    },
+    // todo
+    // Special tags' background colors
+    "todo.colors.tags.background": [
+        "#e54545",
+        "#e59f45",
+        "#e5d145",
+        "#ae81ff",
+        //ADD
+        "#e54545",
+        "#e54545"
+    ],
+    // Special tags' foreground colors
+    "todo.colors.tags.foreground": [
+        "#000000",
+        "#000000",
+        "#000000",
+        "#000000",
+        //ADD
+        "#000000",
+        "#000000"
+    ],
+    // Special tags' names
+    "todo.tags.names": [
+        "critical",
+        "high",
+        "low",
+        "today",
+        //ADD
+        "important",
+        "bug"
+    ],
+    "json.maxItemsComputed": 15000,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDelete": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll.stylelint": true
+    },
+    "workbench.editorAssociations": [
+  
+    ],
+    "commentAnchors.tags.list": [
+        {
+            "tag": "MOCK",
+                        "iconColor": "orange",
+                        "highlightColor": "orange",
+                        "scope": "file"
+        },
+        {
+            "tag": "TEST",
+                        "iconColor": "yellow",
+                        "highlightColor": "yellow",
+                        "scope": "file"
+        },
+    ],
+    "files.associations": {
+    },
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "git.confirmSync": false,
+    "editor.semanticTokenColorCustomizations": null,
+    "editor.fontSize": 16,
+    "editor.formatOnPaste": true,
+    "search.followSymlinks": false,
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+    "files.exclude": {
+        "**/.svn": false
+    },
+    "vetur.validation.interpolation": false
+  }
+  

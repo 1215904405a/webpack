@@ -1,0 +1,73 @@
+@import "./base/rem.less";
+@import "./base/normalize.css";
+@import "./base/color.less";
+@import "./widgets/animate.less";
+
+html,
+body {
+    color: #333;
+    height: 100%;
+    width: 100%;
+    min-width: 1200px;
+    font-family: Microsoft YaHei, SourceHanSansCN-Normal-Alphabetic, Roboto-Regular, Microsoft YaHei, SimSun, Helvetica Neue, Helvetica, Arial, sans-serif;
+    background: rgba(237, 240, 243, 1);
+}
+
+#root {}
+
+a {
+    color: rgba(89, 141, 247, 1);
+}
+
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    background-color: #fff;
+}
+
+ul,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none
+}
+
+.text-center {
+    text-align: center;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.normal-color {
+    color: @textColorDark;
+}
+
+.p10 {
+    padding: 10px;
+}
+
+.p20 {
+    padding: 20px;
+}
+
+/* 404 */
+.no-match {
+    padding-top: 5%;
+}
+
+/* header */
+.site-page-header {
+    padding: 30px;
+    font-size: 1.2rem;
+    border: 1px solid rgb(235, 237, 240);
+}
